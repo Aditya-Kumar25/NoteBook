@@ -16,7 +16,7 @@ export function Sidebar() {
     },
   ];
   return (
-    <aside className="w-60 h-full border-r border-slate-300 p-4">
+    <aside className="w-60 h-screen border-r border-slate-300 p-4">
       <h2 className="text-xl font-bold mb-4">Node.js</h2>
 
       <nav className="flex flex-col gap-2">

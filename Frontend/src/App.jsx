@@ -7,10 +7,10 @@ import Modules from "./Pages/Modules";
 export default function App() {
   return (
     <Routes>
-      <Route path='/' element={<Layout/>}>
-        <Route index element={<Home/>}/>
-        <Route path='introduction' element={<Introduction/>}/>
-        <Route path='modules' element={<Modules/>}/>
+      <Route element={<Layout/>}>
+        <Route path="/" element={<Home/>}/>
+        <Route path='/introduction' element={<Introduction/>}/>
+        <Route path='/modules' element={<Modules/>}/>
       </Route>
     </Routes>
   );
